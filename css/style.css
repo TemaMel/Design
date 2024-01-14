@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #000;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  z-index: 10;
+}
+.header__logo {
+  width: 161px;
+  height: 53px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.header__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu {
+  display: flex;
+  -moz-column-gap: 26px;
+       column-gap: 26px;
+  list-style-type: none;
+}
+.header__menu a {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-decoration: none;
+}
+.header__links {
+  display: flex;
+  gap: 29px;
+}
+.header__links a {
+  text-decoration: none;
+}
+.header__links a svg :hover {
+  fill: #000;
+}
+
+.slide {
+  width: 100%;
+  height: 100vh;
+}
+.slide .subtitle {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.slide .title {
+  color: #FFF;
+  font-family: Viga;
+  font-size: 170px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.slide .slider__text {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 515px;
+}
+.slide .slider__link {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 0 0 19px;
+  position: relative;
+  margin-top: 20px;
+}
+.slide .slider__link:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: translateY(100%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.slide .slider__item {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 0 0 50px;
+}
+.slide .slider__item-1 {
+  background: url("../img/slider/bg1.png");
+}
+.slide .slider__item-2 {
+  background: url("../img/slider/bg2.png");
+}
+.slide .slider__item-3 {
+  background: url("../img/slider/bg3.png");
+}
+
+.swiper {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  box-sizing: content-box;
+}
+.swiper .subtitle {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.swiper .title {
+  color: #FFF;
+  font-family: Viga;
+  font-size: 170px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.swiper__text {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 515px;
+}
+.swiper__link {
+  display: block;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0 0 0 19px;
+  position: relative;
+  margin-top: 20px;
+  width: 130px;
+}
+.swiper__link:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  transform: translateY(100%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: content-box;
+}
+.swiper-slide-1 {
+  background: url("../img/swiper/bg1.png") center center/cover no-repeat;
+}
+.swiper-slide-2 {
+  background: url("../img/swiper/bg2.png") center center/cover no-repeat;
+}
+.swiper-slide-3 {
+  background: url("../img/swiper/bg3.png") center center/cover no-repeat;
+}
+.swiper-slide-content {
+  padding-left: 32px;
+}
+.swiper-button-prev {
+  position: absolute;
+  width: 42px;
+  top: 90%;
+  left: 2%;
+}
+.swiper-button-prev::after {
+  content: "none";
+}
+.swiper-button-next {
+  position: absolute;
+  width: 42px;
+  top: 90%;
+  right: 2%;
+}
+.swiper-button-next::after {
+  content: "none";
+}
+.swiper-scrollbar {
+  background: #FFFFFF;
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
